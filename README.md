@@ -16,7 +16,7 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Authors
 
-Sara Sullivan (https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Sara Sullivan](https://github.com/ssullivan9661), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
 
 ### Contributors
 
