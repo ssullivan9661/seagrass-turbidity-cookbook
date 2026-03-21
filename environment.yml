@@ -4,13 +4,14 @@ channels:
 dependencies:
   - jupyterlab
   - python=3.10
-  - mystmd
-  - jupyterlab-myst
+  - pickle
   - numpy
   - pandas
   - xarray
   - rasterio
+  - rioxarray
   - geopandas
+  - shapely
+  - pyproj
   - matplotlib
   - pip:
-      - earthpy
