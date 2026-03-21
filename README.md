@@ -1,4 +1,4 @@
-# (Replace_with_your_title) Cookbook
+# Florida Bay Spatiotemporal Seagrass Dynamics Analysis Cookbook
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -8,15 +8,17 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers working with Sentinel-2 satellite imagery and water quality data in Python. 
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+The purpose of this cookbook is to document a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health. By the end of this cookbook, the user will be able to efficiently manage and save large data files on their system with `glob`, `os`, and `pickle`; process satellite imagery by clipping and masking, and quantify imagery through band math  with `xarray` and `rasterio`. Spatiotemporal analysis will be demonstrated by combining `geopandas` for geospatial operations with Python `NumPy` and `pandas` for environmental data. Ultimately, creating a workflow that can be applied to other environmental applications for spatial-temporal comparison analysis of raster and numeric data.
+
+
 
 ## Authors
 
-[Sara Sullivan](https://github.com/ssullivan9661), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Sara Sullivan](https://github.com/ssullivan9661), [Daniel Smith](https://github.com/ianraymondsmith), and [Omar Alazmi](https://github.com/engomarm03-commits)
 
 ### Contributors
 
