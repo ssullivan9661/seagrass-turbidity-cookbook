@@ -8,7 +8,7 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers working with Sentinel-2 satellite imagery and water quality data in Python. 
+This Project Pythia Cookbook covers the spatiotemporal analysis project of coastal seagrass in Florida Bay, working with Sentinel-2 satellite imagery and water quality data in Python. 
 
 ## Motivation
 
