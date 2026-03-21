@@ -2,16 +2,13 @@ name: seagrass-env
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab
   - python=3.10
-  - pickle
   - numpy
   - pandas
   - xarray
   - rasterio
   - rioxarray
   - geopandas
-  - shapely
-  - pyproj
   - matplotlib
-  - pip:
+  - jupyterlab
+
