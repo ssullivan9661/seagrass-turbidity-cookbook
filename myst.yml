@@ -1,21 +1,24 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-extends:
-  - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: Seagrass Turbidity Cookbook
+  github: https://github.com/ssullivan9661/seagrass-turbidity-cookbook
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Daniel Smith, Omar Alazmi, and Sara Sullivan
+  copyright: '2026'
   toc:
     - file: README.md
-    - title: Preamble
+    - title: References
       children:
         - file: notebooks/how-to-cite.md
     - title: Introduction
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/01_access_data.ipynb
+        - file: notebooks/02_preprocess_imagery.ipynb
+        - file: notebooks/03_calculate_indices.ipynb
+        - file: notebooks/04_spatial_mapping.ipynb
+        - file: notebooks/05_time_series_analysis.ipynb
+        - file: notebooks/06_compare_with_noaa_data.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: ssullivan9661/seagrass-turbidity-cookbook
