@@ -1,7 +1,16 @@
-name: cookbook-dev
+name: seagrass-env
 channels:
   - conda-forge
 dependencies:
   - jupyterlab
+  - python=3.10
   - mystmd
   - jupyterlab-myst
+  - numpy
+  - pandas
+  - xarray
+  - rasterio
+  - geopandas
+  - matplotlib
+  - pip:
+      - earthpy
