@@ -1,4 +1,4 @@
-# Florida Bay Spatiotemporal Seagrass Dynamics Analysis Cookbook
+# Seagrass Turbidity Cookbook
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
