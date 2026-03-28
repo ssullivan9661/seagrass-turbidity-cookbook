@@ -11,4 +11,9 @@ dependencies:
   - geopandas
   - matplotlib
   - jupyterlab
+  - shapely
+  - netcdf4
+  - pip
+  - pip:
+    - sentinelhub
 
