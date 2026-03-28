@@ -2,8 +2,6 @@ format: jb-book
 root: notebooks/01_access_data
 
 chapters:
+    - file: notebooks/01_access_data
     - file: notebooks/02_preprocessing_imagery
-    - file: notebooks/03_calculate_indices
-    - file: notebooks/04_spatial_mapping
-    - file: notebooks/05_time_series_analysis
-    - file: notebooks/06_compare_with_noaa_data
+    - file: 
