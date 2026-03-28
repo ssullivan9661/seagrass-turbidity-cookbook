@@ -47,8 +47,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html/
-      - name: Build the book
-        shell: bash -1 {0}
         run: |
           jupyter-book build .
   deploy:
