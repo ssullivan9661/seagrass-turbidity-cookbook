@@ -1,1 +1,22 @@
-
+name: seagrass-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - myst-parser
+  - jupyter-book
+  - sphinx
+  - conda-lock
+  - numpy
+  - pandas
+  - xarray
+  - rasterio
+  - rioxarray
+  - geopandas
+  - matplotlib
+  - jupyterlab
+  - shapely
+  - netcdf4
+  - pip
+  - pip:
+    - sentinelhub
