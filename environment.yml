@@ -3,6 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
+  - myst-parser
+  - jupyter-book
+  - sphinx
+  - conda-lock
   - numpy
   - pandas
   - xarray
