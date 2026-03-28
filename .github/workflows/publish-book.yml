@@ -22,35 +22,5 @@ jobs:
         shell: bash -l {0}
         run: |
           jupyter-book build .
-      
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: book-html
-          path: _build/html/
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: book-html
-          path: _build/html/
-      
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html/
-        run: |
-          jupyter-book build .
-  deploy:
-    needs: build
-    uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
-  
  
