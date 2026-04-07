@@ -10,15 +10,16 @@ project:
     - file: README.md
     - title: References
       children:
-        - file: notebooks/how-to-cite.md
+        - file: notebooks/
     - title: Introduction
       children:
         - file: notebooks/01_access_data.ipynb
-        - file: notebooks/02_preprocess_imagery.ipynb
-        - file: notebooks/03_calculate_indices.ipynb
-        - file: notebooks/04_spatial_mapping.ipynb
-        - file: notebooks/05_time_series_analysis.ipynb
-        - file: notebooks/06_compare_with_noaa_data.ipynb
+        - file: notebooks/02a_preprocess_imagery.ipynb
+        - file: notebooks/SWF_Water_Quality_Data.ipynb
   jupyter:
-      binder:
-        repo: ssullivan9661/seagrass-turbidity-cookbook
+  binder:
+    binderhub_url: "https://binder.projectpythia.org"
+    org: "ssullivan9661"
+    repo: "seagrass-turbidity-cookbook"
+    branch: "main"
+    path: "notebooks"
