@@ -3,11 +3,9 @@
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ssullivan9661/seagrass-turbidity-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers the spatiotemporal analysis project of coastal seagrass in Florida Bay, working with Sentinel-2 satellite imagery and water quality data in Python. 
+This cookbook covers the spatiotemporal analysis project of coastal seagrass in Florida Bay, working with Sentinel-2 satellite imagery and water quality data in Python. 
 
 ## Motivation
 
