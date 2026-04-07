@@ -9,7 +9,7 @@ This cookbook covers the spatiotemporal analysis project of coastal seagrass in 
 
 ## Motivation
 
-The purpose of this cookbook is to document a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health. By the end of this cookbook, the user will be able to efficiently manage and save large data files on their system with `glob`, `os`, and `pickle`; process satellite imagery by clipping and masking, and quantify imagery through band math  with `xarray` and `rasterio`. Spatiotemporal analysis will be demonstrated by combining `geopandas` for geospatial operations with Python `NumPy` and `pandas` for environmental data. Ultimately, creating a workflow that can be applied to other environmental applications for spatial-temporal comparison analysis of raster and numeric data.
+The purpose of this cookbook is to document a reproducible workflow for integrating satellite imagery with environmental data to analyze coastal ecosystem health. Looping over large raster data files to convert file types, save to `.nc`, process by clipping and masking, and calculating spectral indices with modules such as Xarray and Rasterio. Process water quality data with Pandas, NumPy, Matplotlib, and other python functions and modules to perform a comparison analysis of spatiotemporal data and environmental data. Ultimately, creating a workflow that can be applied to other environmental applications for spatial-temporal comparison analysis of raster and numeric data.
 
 
 
@@ -17,11 +17,6 @@ The purpose of this cookbook is to document a reproducible workflow for integrat
 
 [Sara Sullivan](https://github.com/ssullivan9661), [Daniel Smith](https://github.com/ianraymondsmith), and [Omar Alazmi](https://github.com/engomarm03-commits)
 
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
 
 ## Structure
 
